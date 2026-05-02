@@ -1,0 +1,18 @@
+,,,,
+,,Context,Hallazgo,Implicación
+,"Entre el [01/01/2025] y el [08/31/2025], ¿cuál es la tasa de conversión entre cada etapa clave del embudo.
+
+🔹 ¿En qué paso se observa la mayor caída porcentual de usuarios?
+🔹 ¿Cómo varía esta pérdida por país (country)?","Se analizó el proceso de conversión de usuarios de MercadoLibre desde la visita inicial (first_visit) hasta la transacción final (purchase) entre el 01/01/2025 y el 08/31/2025, evaluando la eficiencia en cada paso técnico del checkout.","La mayor caída porcentual ocurre entre add_to_cart y begin_checkout. Al desglosar por país, se detectó que la fricción varía: en México el abandono es crítico en la carga de pagos (add_payment_info), mientras que en Brasil ocurre al calcular costos de envío (add_shipping_info).","Es necesario simplificar la transición al checkout mediante ""Compra en un clic"" y optimizar las pasarelas de pago y logística locales por país para reducir el abandono en los pasos finales, donde el interés de compra ya es alto."
+,"¿Qué tan bien retenemos a los usuarios a lo largo del tiempo?
+
+🔹 Para los usuarios que se registraron entre el [01/01/2025] y el [06/01/2025], ¿cuál es la tasa de retención en D7, D14, D21, D28?
+🔹 *¿Cómo se comporta la retención agrupados por país (`country`)?
+","Se midió la recurrencia de usuarios que se registraron en el primer semestre de 2025 (01/01/2025 al 06/01/2025), monitoreando su actividad en los hitos críticos de 7, 14, 21 y 28 días posteriores a su registro.","La retención muestra una caída drástica después del D7, estabilizándose hacia el D28. El comportamiento por país revela que los mercados con programas de lealtad o servicios recurrentes (como supermercado) mantienen tasas de retención un [X]% más altas en el largo plazo.","El enfoque debe ser elevar la retención en la primera semana (D7) mediante estrategias de onboarding y beneficios inmediatos. Una vez superada la barrera de los 7 días, es significativamente más probable que el usuario se convierta en un comprador recurrente."
+,,,,
+,,,,
+,,,,
+,Reflexión personal,,,
+,"- ¿Qué etapa mejorarías primero? Aprendí que el usuario es extremadamente sensible a la fricción y a la incertidumbre. El análisis del embudo dejó claro que el interés de compra existe (se ve en las visitas y productos agregados), pero se desvanece en cuanto el proceso se vuelve ""pesado"" o revela costos adicionales (como envíos o métodos de pago complejos).
+",,,
+,"- ¿Qué aprendiste sobre el comportamiento del usuario? Es la etapa con el costo de oportunidad más alto. Un usuario que ya agregó un producto al carrito ya tomó la decisión difícil de elegir; perderlo en ese salto técnico es una falla de diseño o de comunicación de costos (como el envío). Implementar ""Compra en un clic"" o mostrar los costos de envío de forma transparente desde la visualización del producto sería mi primera acción para mover la aguja de los ingresos de forma inmediata.",,,
